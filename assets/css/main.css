@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+}
+
+a {
+    color: #7c9ab7;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    background: #e3e3e3;
+    border: unset;
+    cursor: pointer;
+}
+.sticker{
+    max-width: 30%;
+}
+.msg {
+    border: 2px solid #ffa908;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.main-box {
+    width:100vw;
+    overflow:hidden;
+    display: inline-block;
+}
+.main-block {
+    display: flex;
+    flex-direction: column-reverse;
+    height:600px;
+    width:80%;
+    min-width: 200px;
+    overflow-y:scroll;
+    border: 1px solid;
+    float: right;
+}
+.add-block{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width:20%;
+    min-width: 100px;
+    height:600px;
+    border: 1px solid;
+    float: left;
+}
+.main-block::-webkit-scrollbar {width:0px;}
+.logout {
+    color: #7c9ab7;
+    float: right;
+    position: absolute;
+    bottom: 1vh;
+}
+.audio {
+    width: 300px;
+    height: 30px;
+}
+.push{
+    position: absolute;
+    display: inline-flex;
+}
+.push-input{
+    width: 70vw;
+}
+.push-button{
+    width: 9.85vw;
+}
+#message{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 40px;
+}
+.add{
+    flex-direction: column;
+    display: inline-flex;
+
+}
+.add-input{
+    margin-top: 1vh;
+    width: 15vw;
+    height: 3vh;
+}
+.add-button{
+    margin-bottom: 1vh;
+    width: 15vw;
+}
+#chat-id{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.id {
+    color: #7c9ab7;
+    font-weight: bold;
+    text-decoration: none;
+}
+.id:hover { 
+    text-decoration: underline;
+   }
